@@ -1,0 +1,5 @@
+(efetch :fetcher git
+        :url "https://framagit.org/prouby/emacs-fetch.git"
+        :files ("efetch.el" "images/*.png" "ascii-arts/*"
+                "README.org" "LICENSE"
+                (:exclude ".dir-locals.el" "*-tests.el" "Makefile")))
